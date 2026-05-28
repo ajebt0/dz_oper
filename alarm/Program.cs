@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        // Делегат
+     
         Console.WriteLine("Таймер:");
 
         TimerHelper.DoAfter(() =>
@@ -14,7 +14,6 @@ class Program
 
         Console.WriteLine();
 
-        // Событие
         Console.WriteLine("Будильник:");
 
         AlarmClock alarm = new AlarmClock();
